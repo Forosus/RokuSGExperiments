@@ -15,6 +15,6 @@ sub showfocus()
 end sub
 
 sub showrowfocus()
-  m.itemmask.opacity = 0.75 - (m.top.rowFocusPercent * 0.75)
+  m.itemmask.opacity = 0.75 - (m.top.rowFocusPercent * 0.5)
   m.itemlabel.opacity = m.top.rowFocusPercent
 end sub
